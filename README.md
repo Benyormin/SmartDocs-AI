@@ -39,4 +39,13 @@ In the Setup API section, write your own GOOGLE_API_KEY and Ngrok_TOKEN. You can
 
 ## ❓ How does it work?
 
+SmartDocs AI follows a Retrieval-Augmented Generation (RAG) pipeline using a **Map-Reduce** approach. Uploaded documents and URLs are chunked and embedded using MiniLM, then stored in a FAISS vector index. At query time, relevant chunks are retrieved, passed to Gemini for reasoning, and synthesized into a final answer with source citations. This ensures accurate, scalable, and context-aware responses.
+
+![image1](step-1.png)
+![image2](step-2.png)
+
+
 ## 📸 Demo
+![gif](SmartDocs-AI.gif)
+![image3](SmartDocs-AI.jpg)
+
