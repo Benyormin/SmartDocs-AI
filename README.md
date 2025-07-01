@@ -28,9 +28,15 @@ SmartDocs AI is a NotebookLM-style document assistant built using the **RAG (Ret
 
 ---
 
-## 📦 Installation
+## 📦 How to Run 
 
-```bash
-git clone https://github.com/your-username/smartdocs-ai.git
-cd smartdocs-ai
-pip install -r requirements.txt
+- Open the Colab notebook
+- Create your own API keys
+In the Setup API section, write your own GOOGLE_API_KEY and Ngrok_TOKEN. You can obtain them from Google AI Studio and the Ngrok dashboard.
+- Run Colab
+- Open your Ngrok link in a browser
+  You should open your own server's link, which might look something like this: https://eb1d-104-196-101-220.ngrok-free.app
+
+## ❓ How does it work?
+
+## 📸 Demo
